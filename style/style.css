@@ -1,0 +1,155 @@
+/* general css */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.row {
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}
+[class*="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+/* header section css */
+#menu {
+    background-color: #556270;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    font-size: 14px;
+}
+#menu a:hover {
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+#header {
+    margin-top: 46px;
+}
+
+#video {
+    background-color: black;
+}
+
+#header iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+/* main section css */
+#main {
+    background-color: lightgray;
+}
+#background-sky {
+    background-image: url("images/background-sky.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+#main .main-article {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#main .main-article h3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.6;
+    color:white;
+    text-align: center;
+    height: 40px;
+    margin: 0px 15px;
+    padding: 8px 0px;
+}
+#main .main-article h3:hover {
+    opacity: 0.8;
+}
+#main .main-article img {
+    width: 100%;
+}
+
+/* footer section css */
+footer {
+    background-color: lightblue;
+}
+
+footer h4,p {
+    text-align: center;
+}
+
+
+/* style for children page */
+.header-son-doong {
+    width: 100%;
+}
+.header-son-doong img {
+    width: 100%;
+}
+
+.main-son-doong p{
+    text-align: justify;
+}
+.main-son-doong img,iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.main-son-doong .menu-children {
+    background-color:burlywood;
+    margin-top: 20px;
+}
+.main-son-doong .menu-children h3 {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.main-son-doong h2 {
+    margin-top: 20px;
+}
+
+.main-son-doong a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.main-son-doong a:hover {
+    opacity: 0.6;
+}
